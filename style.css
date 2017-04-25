@@ -1,0 +1,93 @@
+body {background-color: darkred;
+      margin: 0;}
+html {font-family: roboto mono;
+      color: darkred;}
+#main { color: black;
+        column-count: 2;
+        margin: 15px 5px;}
+#logo {position: absolute; top: 0; left: 0;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 7px outset red;
+        margin-top: 4em;
+      }
+@media  screen and (min-width: 800px){
+  #matrix {
+           align-items: center;
+           width: auto;
+           margin-left: 34%;
+           margin-right: 30%;
+         }
+  .thumbnail {width: 40em; height: 40em;}
+
+}
+
+/*Nav bar */
+#searchform {margin-right: 2em;}
+
+
+}
+
+#compImg {border-radius: 30%;
+          border: 5px solid darkred;
+          margin-left: 2em;
+        !important}
+/* Search Bar */
+
+#headername { position: absolute; top: 0; left: 0;
+              margin-left: 12%;
+              margin-top: 2em;
+              font-size: 48px;
+              font-weight: 800;
+              color: black;}
+
+
+/*#matrix {
+         align-items: center;
+         width: auto;
+         margin-left: 34%;
+         margin-right: 30%;
+       }*/
+.contentDiv {background-color: darkgrey;
+          margin-top: 2em;
+          margin-bottom: 2em;
+          margin-left: 2em;
+          margin-right: 2em;
+          padding: 2em;
+          color: black;
+          font-weight: 800;}
+/* Thumbnails */
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+    width: 30em;
+    height: 30em;
+}
+
+.caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(179, 0, 0, 0.75);
+    width:100%;
+    height:100%;
+    padding:2%;
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+}
+/*Contact form*/
+#contactForm {height: inherit;
+              width: inherit;}
+#question, #compImg {max-width: 100%;}
+
+footer { width: 100%;
+         text-align: center;
+       border-top: 3px solid darkred;
+       background-color: darkred;
+       margin-bottom: 0;
+       color: black;
+       position: inherit;
+       bottom: 0;}
